@@ -1,3 +1,5 @@
+#Input and Variables
+
 '''
 myName = input("What's your name?: ")
 myAge = input("How old are you? : ")
