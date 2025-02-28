@@ -1,12 +1,15 @@
-#Concatenation
-
-food = input("Name a food > ")
-plant = input("Name a type of plant > ")
-cooking = input("Name a method of cooking > ")
-burned = input("What word describes burned food? > ")
-item = input("Name a DIY item > ")
-
-print("\nMENU")
-print(cooking, food, "with", burned, plant, "on a bed of", item)
-
-
+"""
+ * EJERCICIO:
+ * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto en tu lenguaje.
+ * - Utiliza operaciones de inserción, borrado, actualización y ordenación.
+ *
+ * DIFICULTAD EXTRA (opcional):
+ * Crea una agenda de contactos por terminal.
+ * - Debes implementar funcionalidades de búsqueda, inserción, actualización y eliminación de contactos.
+ * - Cada contacto debe tener un nombre y un número de teléfono.
+ * - El programa solicita en primer lugar cuál es la operación que se quiere realizar, y a continuación
+ *   los datos necesarios para llevarla a cabo.
+ * - El programa no puede dejar introducir números de teléfono no númericos y con más de 11 dígitos.
+ *   (o el número de dígitos que quieras)
+ * - También se debe proponer una operación de finalización del programa.
+ """
